@@ -8,6 +8,7 @@ import { ProductScreen } from '../screens/ProductScreen';
 import { StoreScreen } from '../screens/StoreScreen';
 import { HerbarioCategoriesScreen } from '../screens/HerbarioCategoriesScreen';
 import { HerbarioPlantsScreen } from '../screens/HerbarioPlantsScreen';
+import { EditPerfilScreen } from '../screens/EditPerfilScreen';
 
 const Stack = createStackNavigator();
 
@@ -22,6 +23,7 @@ export function AuthSackNavigator() {
         <Stack.Screen name="store" component={StoreScreen} />
         <Stack.Screen name="herbarioCategories" component={HerbarioCategoriesScreen} />
         <Stack.Screen name="herbarioPlants" component={HerbarioPlantsScreen} />
+        <Stack.Screen name="editPerfil" component={EditPerfilScreen} />
     </Stack.Navigator>
  
   );
